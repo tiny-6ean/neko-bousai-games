@@ -50,6 +50,8 @@ startBtn.addEventListener("click", () => {
   });
 
   showScreen(screenItems);
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 submitBtn.addEventListener("click", () => {
@@ -112,11 +114,13 @@ submitBtn.addEventListener("click", () => {
   resultText.style.textAlign = "left";
 
   showScreen(screenResult);
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 retryBtn.addEventListener("click", () => {
   selectedItems = [];
   showScreen(screenStart);
-});
 
-window.scrollTo({ top: 0, behavior: "smooth" });
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
