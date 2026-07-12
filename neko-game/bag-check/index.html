@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>避難袋チェックミニゲーム</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="screen-start" class="screen active fade">
+    <h1 class="title">避難袋チェック</h1>
+    <p class="subtitle">猫のプロフィールを選んでください</p>
+
+    <div class="select-group">
+      <label>性格</label>
+      <select id="select-personality">
+        <option value="timid">臆病</option>
+        <option value="careful">慎重</option>
+        <option value="curious">好奇心旺盛</option>
+      </select>
+
+      <label>年齢</label>
+      <select id="select-age">
+        <option value="kitten">子猫</option>
+        <option value="adult">成猫</option>
+        <option value="senior">シニア</option>
+      </select>
+
+      <label>健康状態</label>
+      <select id="select-health">
+        <option value="healthy">健康</option>
+        <option value="ill">持病あり</option>
+      </select>
+    </div>
+
+    <button id="start-btn" class="main-btn">チェック開始</button>
+  </div>
+
+  <div id="screen-items" class="screen fade">
+    <h2 class="title">必要だと思うものを選んでください</h2>
+
+    <div id="item-container" class="item-container"></div>
+
+    <button id="submit-btn" class="main-btn">結果を見る</button>
+  </div>
+
+  <div id="screen-result" class="screen fade">
+    <h2 class="title">結果</h2>
+    <div id="result-text" class="result-text"></div>
+
+    <button id="retry-btn" class="main-btn">もう一度遊ぶ</button>
+
+<a class="back-btn" href="../index.html">ミニゲームのトップページに戻る</a>
+  </div>
+
+  <script src="items.js"></script>
+  <script src="game.js"></script>
+
+</body>
+</html>
