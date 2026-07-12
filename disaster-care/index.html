@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>災害時ケアミニゲーム</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <h1 class="title">災害時ケア</h1>
+
+    <div id="scene" class="scene-box"></div>
+
+    <div id="choices" class="choices-box"></div>
+
+    <div id="status" class="status-box">
+        <p>ストレス</p>
+        <div class="bar-bg"><div id="stress-bar" class="bar"></div></div>
+
+        <p>避難成功率</p>
+        <div class="bar-bg"><div id="evac-bar" class="bar blue"></div></div>
+    </div>
+
+    <div class="result-actions">
+        <button id="restart" class="restart-btn" style="display:none;">
+            もう一度遊ぶ
+        </button>
+
+        <a href="../index.html" class="back-btn">
+            ミニゲームのトップページに戻る
+        </a>
+    </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

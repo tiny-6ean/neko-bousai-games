@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 260px;
+  max-width: 300px;
   margin: 0 auto 30px;
   text-align: left;
 }
@@ -51,7 +51,10 @@ select {
   border: 1px solid #ccc;
   border-radius: 12px;
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
   cursor: pointer;
+  text-align: center;
 }
 
 .main-btn:hover {
@@ -105,18 +108,33 @@ select {
   to { opacity: 1; }
 }
 
+.result-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.result-actions button,
+.result-actions .back-btn {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .back-btn {
   display: block;
-  max-width: 260px;
-  margin: 20px auto 0;
-  padding: 12px 20px;
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 12px;
   text-decoration: none;
   color: #333;
-  font-size: 15px;
-  text-align: center;
   transition: 0.2s ease;
 }
 
