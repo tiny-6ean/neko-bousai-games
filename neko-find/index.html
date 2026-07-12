@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>猫を探すミニゲーム｜ねこ防災</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="screen-start" class="screen active fade">
+    <h1 class="title">猫を探すミニゲーム</h1>
+    <p class="subtitle">災害時、猫はどこに隠れる？</p>
+
+    <div class="profile-select">
+      <button class="profile-btn" data-profile="timid">臆病な猫</button>
+      <button class="profile-btn" data-profile="careful">慎重な猫</button>
+      <button class="profile-btn" data-profile="curious">好奇心旺盛な猫</button>
+    </div>
+  </div>
+
+  <div id="screen-game" class="screen fade">
+    <h2 class="title">猫が隠れている場所を探そう</h2>
+    <p class="subtitle">タップして探してね</p>
+
+    <div id="place-container" class="place-container">
+      <!-- JSで場所カードを生成 -->
+    </div>
+  </div>
+
+  <div id="screen-result" class="screen fade">
+    <h2 class="title">結果</h2>
+    <p id="result-text" class="result-text"></p>
+
+    <div class="result-actions">
+      <button id="retry-btn">もう一度遊ぶ</button>
+
+<a class="back-btn" href="../index.html">ミニゲームのトップページに戻る</a>
+    </div>
+  </div>
+
+  <script src="places.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
