@@ -119,3 +119,5 @@ retryBtn.addEventListener("click", () => {
   selectedItems = [];
   showScreen(screenStart);
 });
+
+window.scrollTo({ top: 0, behavior: "smooth" });
