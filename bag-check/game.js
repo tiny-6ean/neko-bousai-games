@@ -104,7 +104,6 @@ submitBtn.addEventListener("click", () => {
     html += `</p><br>`;
   }
 
-  // 低優先度
   if (pickedLow.length > 0) {
     html += `<p>低優先度のアイテムも選ばれています（状況によって役立ちます）</p>`;
   }
