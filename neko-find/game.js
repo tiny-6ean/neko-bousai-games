@@ -22,6 +22,8 @@ function startGame(profile) {
 
   renderPlaces();
   showScreen("screen-game");
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function renderPlaces() {
@@ -63,8 +65,12 @@ function showResult(isCorrect) {
   }
 
   showScreen("screen-result");
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 document.getElementById("retry-btn").addEventListener("click", () => {
   showScreen("screen-start");
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
