@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ねこ防災ミニゲーム集</title>
+  <title>ねこ防災ミニゲーム</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,11 +11,11 @@
 
   <div class="screen active fade">
 
-    <h1 class="title">ねこ防災ミニゲーム集</h1>
+    <h1 class="title">ねこ防災ミニゲーム</h1>
     <p class="subtitle">猫と暮らす人のための防災学習</p>
 
     <div class="menu-icon-wrapper">
-      <img class="menu-icon-large" src="games.png" alt="ミニゲームアイコン">
+      <img class="menu-icon-large" src="./img/games.png" alt="ミニゲームアイコン">
     </div>
 
     <div class="menu">
@@ -49,6 +49,12 @@
     </div>
 
   </div>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
 
 </body>
 </html>
