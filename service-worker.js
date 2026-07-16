@@ -1,11 +1,11 @@
-const CACHE_NAME = "neko-gemes-v1";
+const CACHE_NAME = "neko-bousai-games-v1";
 const FILES = [
-  "./",
-  "./index.html",
-  "./style.css",
-  "./manifest.json",
-  "./img/gemes192.png",
-  "./img/gemes512.png"
+  "/",
+  "/index.html",
+  "/style.css",
+  "/manifest.json",
+  "/img/gemes192.png",
+  "/img/gemes512.png"
 ];
 
 self.addEventListener("install", (e) => {
