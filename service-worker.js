@@ -1,4 +1,4 @@
-const CACHE_NAME = "neko-geme-v1";
+const CACHE_NAME = "neko-gemes-v1";
 const FILES = [
   "./",
   "./index.html",
