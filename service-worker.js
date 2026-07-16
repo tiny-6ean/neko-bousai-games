@@ -1,6 +1,5 @@
-const CACHE_NAME = "neko-bousai-games-v3";
+const CACHE_NAME = "neko-bousai-games-v5";
 const FILES = [
-  "/neko-bousai-games/",
   "/neko-bousai-games/index.html",
   "/neko-bousai-games/style.css",
   "/neko-bousai-games/manifest.json",
