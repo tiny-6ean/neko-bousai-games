@@ -38,7 +38,7 @@ const priorityMap = {
     },
     adult: {
       healthy: { high:["food","water","carrier"], medium:["blanket","towel"], low:["harness","snack","sand","wet","firstaid","photo","tag","bowl"] },
-      ill:     { high:["food","water","carrier"], medium:["blanket","towel"], low:["harness","snack","sand","wet","firstaid","photo","tag","bowl"] }
+      ill:     { high:["food","water","carrier"], medium:["blanklet","towel"], low:["harness","snack","sand","wet","firstaid","photo","tag","bowl"] }
     },
     senior: {
       healthy: { high:["food","water"], medium:["blanket","towel"], low:["carrier","harness","snack","sand","wet","firstaid","photo","tag","bowl"] },
@@ -79,6 +79,6 @@ const priorityMap = {
 
 const extraPriority = {
   high: ["firstaid","tag","photo"],
-  medium: ["trash","gloves","bowl"],
+  medium: ["bowl"],
   low: []
 };
