@@ -7,12 +7,12 @@
   "theme_color": "#fff",
   "icons": [
     {
-      "src": "/img/gemes192.png",
+      "src": "/neko-bousai-games/img/gemes192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/img/gemes512.png",
+      "src": "/neko-bousai-games/img/gemes512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
