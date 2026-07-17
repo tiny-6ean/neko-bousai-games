@@ -1,4 +1,4 @@
-const CACHE_NAME = "neko-bousai-games-v6";
+const CACHE_NAME = "neko-bousai-games-v7";
 const FILES = [
   "./",
   "./index.html",
