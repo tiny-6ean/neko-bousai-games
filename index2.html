@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ねこ防災ミニゲーム</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+  <div class="screen active fade">
+
+    <h1 class="title">ねこ防災ミニゲーム</h1>
+    <p class="subtitle">猫と暮らす人のための防災学習</p>
+
+    <div class="menu-icon-wrapper">
+      <img class="menu-icon-large" src="./img/games.png" alt="ミニゲームアイコン">
+    </div>
+
+    <div class="menu">
+
+      <a class="menu-btn" href="neko-find/index.html">
+        猫を探す
+      </a>
+
+      <a class="menu-btn" href="bag-check/index.html">
+        避難袋チェック
+      </a>
+
+      <a class="menu-btn" href="disaster-care/index.html">
+        災害時ケア
+      </a>
+
+    </div>
+
+    <div class="reference-block">
+      <h3>参考・根拠</h3>
+      <p>このミニゲームの内容は、以下の資料と、制作者自身の経験・学習をもとに構成しています。</p>
+      <ul>
+        <li>環境省「災害時におけるペットの救護対策ガイドライン」</li>
+        <li>内閣府「防災基本計画」</li>
+        <li>自治体の動物救護マニュアル</li>
+        <li>獣医師・専門家監修の猫の実用書・行動学資料（70冊以上読了）</li>
+        <li>防災関連の実用書（40冊以上読了）</li>
+        <li>複数の獣医師・専門家によるセミナー内容（毎週視聴）</li>
+        <li>東日本大震災でのライフライン停止経験（10日間）</li>
+      </ul>
+    </div>
+
+  </div>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/neko-bousai-games/service-worker.js");
+}
+</script>
+
+</body>
+</html>
